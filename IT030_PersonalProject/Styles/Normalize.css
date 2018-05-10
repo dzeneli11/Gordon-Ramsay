@@ -1,0 +1,108 @@
+
+
+html {
+  line-height: 1.15; /* 1 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+}
+
+/* Sections
+   ========================================================================== */
+
+
+
+body {
+  margin: 20;
+}
+
+
+
+h1 {
+  font-size: 2em;
+  margin: 1em 0;
+}
+
+
+
+abbr[title] {
+  border-bottom: none; /* 1 */
+  text-decoration: underline; /* 2 */
+  text-decoration: underline dotted; /* 2 */
+}
+
+
+
+b,
+strong {
+  font-weight: bolder;
+}
+
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: 'Oswald-Medium';/* 1 */
+  font-size: 100%; /* 1 */
+  line-height: 1.15; /* 1 */ /* 2 */
+}
+
+
+
+button,
+input { /* 1 */
+  overflow: visible;
+}
+
+
+
+button,
+select { /* 1 */
+  text-transform: none;
+}
+
+
+
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+}
+
+
+
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+
+
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+
+
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+
+
+
+legend {
+  white-space: normal;
+}
+
+
+
+progress {
+  vertical-align: baseline;
+}

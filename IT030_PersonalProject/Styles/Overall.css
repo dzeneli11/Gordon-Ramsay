@@ -110,37 +110,32 @@ li {
 	}
 
 
-@media (min-width: 481px) and (max-width: 767px) {//CSS
-
-/*tablets*/
-
-}
-
-
-@media (min-width: 320px) and (max-width: 480px) {//CSS
-	#nav_menu{
-		display: none;
-	}
-	main {
-		font-size:90%;
-		width: 100%;
-	}
-	#sidebarA{
-		float: none;
-		width: 200%;
-	}
-	body{
-		width:100%;
-		border:none;
+	@media screen and (max-width: 40em) {
+		.content--layout {
+			transform: scale3d(0.8,0.8,1);
+		}
 	}
 
+	@media screen and (max-width: 36em) {
+		.content--layout {
+			transform: scale3d(0.7,0.7,1);
+		}
+	}
 
-	/*Mobile*/
+	@media screen and (max-width: 32em) {
+		.content--layout {
+			transform: scale3d(0.6,0.6,1);
+		}
+		.content__author,
+		.content__desc,
+		.content__link {
+			font-size: 1.35em;
+		}
+	}
 
-
-
-@media (min-width: 1281px) {//CSS
-
-  /*Desktop*/
+	@media screen and (max-width: 28em) {
+		.content--layout {
+			transform: scale3d(0.5,0.5,1);
+		}
 
 }
